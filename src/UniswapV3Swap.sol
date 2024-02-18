@@ -33,7 +33,9 @@ contract UniswapV3Swap {
         bytes memory path = abi.encodePacked(
             0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6,
             uint24(500),
-            0xf758ef837aCadD1B748Ec60B21003D003D818B99
+            0xf758ef837aCadD1B748Ec60B21003D003D818B99,
+            uint24(10000),
+            0xA11950Ea9e9A745BC67904f4339BF0476e5Fb9D9
         );
         return path;
     }
